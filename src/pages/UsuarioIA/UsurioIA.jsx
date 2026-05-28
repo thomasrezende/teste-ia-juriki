@@ -10,7 +10,7 @@ import styles from "./UsurioIA.module.css";
 // Aponta para o worker via CDN — evita problemas de path no Vite/Webpack
 pdfjsLib.GlobalWorkerOptions.workerSrc = workerUrl;
 
-const N8N_WEBHOOK_URL = "https://outline-concept-afford.ngrok-free.dev";
+const N8N_WEBHOOK_URL = "https://outline-concept-afford.ngrok-free.dev ";
 
 const FORMATOS = [
   {
